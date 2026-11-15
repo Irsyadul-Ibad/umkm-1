@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="id" data-theme="kuliner">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f1e7" />
+    <meta name="description" content="Contoh landing page UMKM yang hangat, editorial, dan memudahkan pelanggan memesan melalui WhatsApp." />
+    <title>Pagi Selasar — Roti hangat sebelum kota ramai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#konten">Lewati ke konten</a>
+    <div class="demo-banner"><span class="demo-dot" aria-hidden="true"></span>Pratinjau template · Ganti data contoh sebelum dipublikasikan</div>
+
+    <header class="site-header" id="atas">
+      <a class="wordmark" href="#atas" aria-label="Pagi Selasar, ke awal halaman"><span class="brand-seal" aria-hidden="true">PS</span><span data-bind="brand">Pagi Selasar</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span class="menu-toggle-lines" aria-hidden="true"></span><span class="sr-only">Buka navigasi</span></button>
+      <nav class="main-nav" id="main-nav" aria-label="Navigasi utama">
+        <a href="#menu">Menu</a><a href="#cerita">Cerita</a><a href="#ulasan">Kata mereka</a><a href="#lokasi">Lokasi</a>
+      </nav>
+      <button class="header-order js-open-cart" type="button"><span>Pesan</span><span aria-hidden="true">↗</span><span class="cart-count" data-cart-count hidden>0</span></button>
+    </header>
+
+    <section class="theme-switcher section-shell" aria-label="Pratinjau kategori usaha"><span class="theme-caption">LIHAT TEMPLATE UNTUK</span><div class="theme-options" role="group" aria-label="Pilih kategori usaha"><button type="button" data-theme-choice="kuliner" aria-pressed="true">Kuliner</button><button type="button" data-theme-choice="fashion" aria-pressed="false">Fashion</button><button type="button" data-theme-choice="kerajinan" aria-pressed="false">Kerajinan</button></div><span class="theme-helper">Contoh struktur yang sama, disesuaikan per usaha.</span></section>
+
+    <main id="konten">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span><span data-bind="eyebrow">ROTISERI RUMAHAN · BANJARMADU, LAMONGAN</span></p>
+          <h1 id="hero-title" data-bind="headline">Roti yang sabar,<br />untuk pagi yang<br />singkat.</h1>
+          <p class="hero-description" data-bind="intro">Fermentasi pelan, tepung pilihan, dan oven yang menyala sebelum matahari.</p>
+          <div class="hero-actions"><button class="button button-primary js-order-now" type="button">Pesan untuk besok <span aria-hidden="true">↗</span></button><a class="text-link" href="#menu">Lihat menu <span aria-hidden="true">↓</span></a></div>
+          <p class="batch-note"><span class="batch-mark" aria-hidden="true">04</span><span><strong data-bind="batchTitle">BATCH PAGI</strong><br /><span data-bind="batchText">Dibuat segar, jumlah terbatas.</span></span></p>
+        </div>
+        <div class="hero-art reveal" data-delay="120">
+          <figure class="hero-photo photo-frame"><img data-bind-img="heroImage" src="./assets/sourddough.jpg" alt="Roti sourdough artisan dengan kulit keemasan" fetchpriority="high" /><figcaption><span data-bind="photoCaption">Roti keluar dari oven, pukul 05.40</span><span>FOTO PRODUK DEMO</span></figcaption></figure>
+          <div class="photo-stamp" aria-hidden="true"><span>BAKED</span><strong>04</strong><span>DAILY</span></div>
+          <span class="hero-index" aria-hidden="true">EST. 2021 &nbsp; / &nbsp; 07°49′ S</span>
+        </div>
+        <div class="hero-foot"><span>BAHAN SEDERHANA, WAKTU YANG CUKUP</span><span>GULIR PERLAHAN&nbsp; ↓</span></div>
+      </section>
+
+      <section class="products section-shell section-block" id="menu" aria-labelledby="products-title">
+        <div class="section-heading reveal"><div><p class="eyebrow">DARI OVEN PAGI INI</p><h2 id="products-title">Yang paling sering<br />dibawa pulang.</h2></div><p class="section-aside" data-bind="menuAside">Dipanggang dalam batch kecil.<br />Habis hari ini? Besok ada lagi.</p></div>
+        <div class="filter-row reveal" role="group" aria-label="Saring produk"><span class="filter-label">LIHAT</span><button class="filter-chip is-active" type="button" data-filter="semua" aria-pressed="true">Semua</button><button class="filter-chip" type="button" data-filter="favorit" aria-pressed="false">Favorit pelanggan</button><button class="filter-chip" type="button" data-filter="batch" aria-pressed="false">Batch hari ini</button></div>
+        <div class="product-grid" id="product-grid" aria-live="polite" aria-busy="false"></div>
+        <div class="products-foot reveal"><p>Semua produk dibuat harian. Stok terbatas mengikuti hasil panggangan.</p><a class="text-link" href="#cara-pesan">Cara memesan <span aria-hidden="true">↓</span></a></div>
+      </section>
+
+      <section class="story section-block" id="cerita" aria-labelledby="story-title">
+        <div class="story-image reveal"><figure class="story-photo photo-frame"><img data-bind-img="storyImage" src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Suasana dapur tempat roti disiapkan" loading="lazy" /><figcaption><span data-bind="storyPhotoCaption">Dapur kecil di Banjarmadu</span><span>CATATAN DAPUR / 02</span></figcaption></figure><span class="story-side-note">TANGAN YANG SAMA<br />SETIAP PAGI</span></div>
+        <div class="story-copy reveal" data-delay="120"><p class="eyebrow">CERITA DARI DAPUR</p><h2 id="story-title" data-bind="storyTitle">Pelan-pelan<br />lebih terasa.</h2><div class="story-body" data-bind="storyBody"><p>Roti Pagi Selasar berawal dari meja kecil di rumah, dan kebiasaan memanggang sebelum gang ramai.</p><p>Adonannya menginap semalam. Paginya dibentuk, dipanggang, lalu diantar selagi kulitnya masih renyah.</p></div><blockquote class="pull-quote"><span aria-hidden="true">“</span><p data-bind="pullQuote">Kami percaya roti yang baik perlu waktu, bukan banyak bahan.</p></blockquote><p class="story-signature"><span class="signature-rule"></span><span data-bind="ownerName">Nara &amp; Dimas · pembuat roti</span></p></div>
+      </section>
+
+      <section class="qualities section-shell section-block" aria-labelledby="quality-title"><div class="quality-heading reveal"><p class="eyebrow">HAL YANG KAMI JAGA</p><h2 id="quality-title">Sedikit, tapi<br />ada alasannya.</h2></div><div class="quality-list" id="quality-list"></div></section>
+
+      <section class="testimonials section-block" id="ulasan" aria-labelledby="testimonial-title"><div class="testimonial-top section-shell reveal"><p class="eyebrow">CATATAN DARI PELANGGAN</p><p class="sample-note">CONTOH TESTIMONI · GANTI DENGAN ULASAN ASLI</p></div><div class="testimonial-body section-shell"><div class="testimonial-label"><span id="testimonial-count">01 / 03</span><span>SUARA PELANGGAN</span></div><div class="testimonial-main reveal" aria-live="polite"><h2 class="sr-only" id="testimonial-title">Kata pelanggan</h2><blockquote id="testimonial-quote">“Wanginya sampai ke gang. Saya beli buat sarapan, tapi setengahnya habis di jalan.”</blockquote><div class="testimonial-credit"><span class="credit-mark" aria-hidden="true">NS</span><span><strong id="testimonial-name">Nisa S.</strong><br /><span id="testimonial-location">Lamongan</span></span></div></div><div class="slider-controls"><button class="slider-button" type="button" data-slide="prev" aria-label="Testimoni sebelumnya">←</button><button class="slider-button" type="button" data-slide="next" aria-label="Testimoni berikutnya">→</button></div></div><div class="testimonial-bottom section-shell"><span>SEMUA KATA DI SINI MASIH CONTOH</span><span>GANTI DENGAN ULASAN PELANGGAN ASLI</span></div></section>
+
+      <section class="order-section section-shell section-block" id="cara-pesan" aria-labelledby="order-title"><div class="order-intro reveal"><p class="eyebrow">TANPA APLIKASI TAMBAHAN</p><h2 id="order-title">Tiga langkah,<br />roti di tangan.</h2><p>Pesan langsung ke pembuatnya. Kami kabari kalau ada yang baru keluar dari oven.</p><button class="button button-primary js-order-now" type="button">Mulai pesan via WhatsApp <span aria-hidden="true">↗</span></button></div><ol class="steps-list"><li class="step reveal"><span class="step-index">01</span><div><h3>Pilih yang kamu suka</h3><p>Lihat menu dan tambahkan ke daftar pesanan.</p></div><span class="step-arrow" aria-hidden="true">↘</span></li><li class="step reveal" data-delay="80"><span class="step-index">02</span><div><h3>Kirim lewat WhatsApp</h3><p>Pesanmu tersusun otomatis untuk dicek dulu.</p></div><span class="step-arrow" aria-hidden="true">↘</span></li><li class="step reveal" data-delay="160"><span class="step-index">03</span><div><h3>Atur waktu ambil</h3><p>Sepakati waktu pengambilan langsung dengan kami.</p></div><span class="step-arrow" aria-hidden="true">↗</span></li></ol></section>
+
+      <section class="location section-block" id="lokasi" aria-labelledby="location-title"><div class="location-map reveal" aria-label="Ilustrasi lokasi usaha, bukan peta akurat" role="img"><svg viewBox="0 0 700 540" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><path class="map-land" d="M0 0h700v540H0z"/><path class="map-road road-major" d="M-40 130 C120 166 190 80 310 120 S505 203 742 142M-25 405 C113 348 220 425 321 360s191-84 425-27M230 -35c-15 126 22 202 9 299s-36 168-3 310M521 -30c25 104-8 207 22 318s9 176 16 292"/><path class="map-road" d="M-22 235c105 43 181 20 289 43s172 65 457 12M86 -20c39 99 17 167 60 249s45 131 59 336M398 -10c-45 117-26 202 18 286s47 123 43 299M-18 310c122-14 180-56 281-28s200 59 450 7"/><text x="56" y="80" data-map-label="north">BANJARMADU</text><text x="427" y="85">KARANGGENENG</text><text x="42" y="478">KAB. LAMONGAN</text><text x="475" y="455">LAMONGAN</text><g class="map-pin" transform="translate(350 264)"><circle r="44"/><path d="M0-27c-13 0-23 10-23 23 0 17 23 40 23 40S23 13 23-4C23-17 13-27 0-27Zm0 31a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z"/></g><text class="map-label" x="402" y="268" data-map-label="brand">PAGI SELASAR</text></svg><span class="map-caption">ILUSTRASI KAWASAN · BUKAN PETA AKURAT</span></div><div class="location-copy reveal" data-delay="100"><p class="eyebrow">DATANG SEBELUM HABIS</p><h2 id="location-title" data-bind="locationTitle">Pintu kecil<br />di Banjarmadu.</h2><p class="location-address" data-bind="address">Ds. Banjarmadu, Kec. Karanggeneng<br />Kab. Lamongan</p><div class="hours-row"><span>SELASA — MINGGU</span><strong data-bind="hours">07.00 — 15.00 WIB</strong></div><div class="hours-row"><span>SENIN</span><strong>TUTUP</strong></div><div class="location-actions"><a class="text-link" href="https://maps.google.com/?q=Desa+Banjarmadu+Karanggeneng+Lamongan" target="_blank" rel="noreferrer">Lihat arah <span aria-hidden="true">↗</span></a><a class="text-link" href="https://instagram.com" target="_blank" rel="noreferrer">Instagram <span aria-hidden="true">↗</span></a></div></div></section>
+
+      <section class="closing-cta section-shell reveal" aria-labelledby="closing-title"><p class="eyebrow">BATCH PAGI BERIKUTNYA DIMULAI JAM 04.00</p><div class="closing-content"><h2 id="closing-title">Sarapanmu<br />sudah ada ide?</h2><button class="button button-light js-order-now" type="button">Pesan untuk besok <span aria-hidden="true">↗</span></button></div><span class="closing-mark" aria-hidden="true">PS</span></section>
+    </main>
+
+    <footer class="site-footer section-shell"><a class="wordmark footer-wordmark" href="#atas"><span class="brand-seal" aria-hidden="true">PS</span><span data-bind="brand">Pagi Selasar</span></a><p data-bind="footerLocation">Roti rumahan · dibuat di Banjarmadu.</p><div class="footer-meta"><span>© 2026 <span data-bind="brand">Pagi Selasar</span> · DATA DEMO</span><a href="#atas">Kembali ke atas ↑</a></div></footer>
+
+    <div class="mobile-order-bar" id="mobile-order-bar"><span><strong data-bind="mobileBarTitle">Batch pagi</strong><br /><span data-cart-summary>Mulai pesan langsung</span></span><button class="button button-primary js-mobile-order" type="button">Pesan <span aria-hidden="true">↗</span></button></div>
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+    <dialog class="cart-dialog" id="cart-dialog" aria-labelledby="cart-title"><div class="dialog-head"><div><p class="eyebrow">PESANAN KAMU</p><h2 id="cart-title">Sebelum dikirim.</h2></div><button class="dialog-close" type="button" aria-label="Tutup keranjang">×</button></div><div class="dialog-content"><div class="cart-items" id="cart-items"></div><p class="cart-empty" id="cart-empty">Belum ada yang dipilih. Cari yang menarik dari menu kami.</p><div class="cart-total"><span>Perkiraan total</span><strong id="cart-total">Rp0</strong></div><label class="name-field" for="customer-name">Nama untuk pesanan <span>OPSIONAL</span><input id="customer-name" name="name" type="text" autocomplete="given-name" maxlength="60" placeholder="Mis. Dita" /></label><p class="cart-note">Pembayaran dan waktu pengambilan disepakati setelah pesan dikirim.</p><a class="button button-primary cart-checkout" id="checkout-link" href="#" target="_blank" rel="noreferrer" aria-disabled="true">Kirim pesanan via WhatsApp <span aria-hidden="true">↗</span></a></div></dialog>
+    <div class="sr-only" aria-live="polite" aria-atomic="true" id="announcement"></div>
+  </body>
+</html>

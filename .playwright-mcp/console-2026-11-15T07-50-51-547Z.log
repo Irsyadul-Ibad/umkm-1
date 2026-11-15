@@ -1,0 +1,29 @@
+[      23ms] [INFO] [slickstream] Page Generated at: 11/14/2026, 8:00:47 PM EST @ https://littlespoonfarm.com/sourdough-country-loaf-recipe/:836
+[      57ms] [INFO] [slickstream] Current timestamp: 11/15/2026, 2:50:51 AM EST @ https://littlespoonfarm.com/sourdough-country-loaf-recipe/:837
+[     547ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://littlespoonfarm.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:2
+[    1696ms] [LOG] Memberful: No links to intercept, quitting. @ https://js.memberful.com/embed.js:740
+[    1973ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://ups.analytics.yahoo.com/ups/58404/fed?v=1&1p=0&gdpr=0&gdpr_consent=&us_privacy=1YNY&url=https://littlespoonfarm.com/sourdough-country-loaf-recipe/&pixelId=58404:1
+[    2025ms] [WARNING] [GPT] PubAdsService.getTargeting is deprecated, use googletag.getConfig('targeting') instead.
+https://goo.gle/gpt-message#200 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202611100101/pubads_impl.js:23
+[    2044ms] [WARNING] [GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202611100101/pubads_impl.js:23
+[   11004ms] TypeError: Cannot read properties of undefined (reading 'style')
+    at data:text/javascript;base64,CnNldFRpbWVvdXQoKCkgPT4gewpkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcud3AtYmxvY2sta2FkZW5jZS1uYXZpZ2F0aW9uLWxpbms6aGFzKC5saW5rLXN2Zy1pY29uLWZhc19zZWFyY2gpJylbMF0uc3R5bGUub3BhY2l0eSA9ICcxJzsKfSwgMTAwMDApOwo=:3:94
+[   12910ms] [LOG] [Slickstream] GDPR Consent Needed? false @ browsertools://slickstream/boot-loader.js:1
+[   12951ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://prebid.production.adthrive.com/setuid?bidder=yahooAds&f=b&uid=y-iNnUWCFE2uIxZSP90T9GBat4eOYNndjy~A:1
+[   13250ms] [INFO] [Slickstream] Adding item to browser cache: https://c.slickstream.com/app/3.1.20/app.js @ https://littlespoonfarm.com/sourdough-country-loaf-recipe/:861
+[   13445ms] [ERROR] Failed to load resource: the server responded with a status of 424 (Failed Dependency) @ https://t.adx.opera.com/pub/sync?pubid=pub10101531197440&gdpr=1&gdpr_consent=:1
+[   13645ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://match.sharethrough.com/sync/v1?source_id=UiRtTsXAfjmfSDAKnR1FjWsu&source_user_id=MWHJC86T-1J-FDSH:1
+[   13645ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://match.sharethrough.com/sync/v1?source_id=UiRtTsXAfjmfSDAKnR1FjWsu&source_user_id=MWHJC86T-1J-FDSH:1
+[   14201ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://fran.frvr.com/api/v1/usync?bidder=inmobi&gdpr=0&gdpr_consent=&us_privacy=&f=i&uid=ID5-2-85eb2253-5388-431e-9289-b9f7259e2d31:1
+[   14265ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://match.sharethrough.com/sync/v1?source_id=xTFJbLbs37tyhbKsPP9VC2cm&source_user_id=bb79a673a1&gdpr=0&gdpr_consent=:1
+[   14926ms] [ERROR] Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR @ https://dpm.demdex.net/ibs:dpid=19566&dpuuid=9191B346-16A9-494B-9C32-AAB53C36D9E7:1
+[   14939ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://ups.analytics.yahoo.com/ups/58292/sync?_origin=1&uid=9191B346-16A9-494B-9C32-AAB53C36D9E7&redir=true&gdpr=0&gdpr_consent=&us_privacy=&gpp=&gpp_sid=:1
+[   15016ms] [ERROR] Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR @ https://ps.eyeota.net/match?bid=d9gd6cu&uid=ID5-2-85eb2253-5388-431e-9289-b9f7259e2d31:1
+[   13645ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://match.sharethrough.com/sync/v1?source_id=UiRtTsXAfjmfSDAKnR1FjWsu&source_user_id=MWHJC86T-1J-FDSH:1
+[   14201ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://fran.frvr.com/api/v1/usync?bidder=inmobi&gdpr=0&gdpr_consent=&us_privacy=&f=i&uid=ID5-2-85eb2253-5388-431e-9289-b9f7259e2d31:1
+[   14265ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://match.sharethrough.com/sync/v1?source_id=xTFJbLbs37tyhbKsPP9VC2cm&source_user_id=bb79a673a1&gdpr=0&gdpr_consent=:1
+[   15016ms] [ERROR] Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR @ https://ps.eyeota.net/match?bid=d9gd6cu&uid=ID5-2-85eb2253-5388-431e-9289-b9f7259e2d31:1
+[   16042ms] [INFO] [Slickstream] No x-slickstream-consent header found in cached response @ https://littlespoonfarm.com/sourdough-country-loaf-recipe/:861
+[   16540ms] [DIR] SyntaxError @ https://js.ad-score.com/score.min.js?pid=1000942&tt=g:2
+[   17450ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://ads.adthrive.com/builds/core/221fd35/js/adthrive.min.js?deployment=2026-11-15-02:ada-2079:221fd35:4&bucket=flex-32&deliveryFeatures=additiveRaptiveFloors,altsdm,altv2,amazonBetaApstag,amazonLoad-off,cfbd,consentManagerCMP,cv2,dlc,es2021,euUsCmp,hb_crid,internalScriptLogError,ld,marmaladeV2,nvc,pbis,pdir,raptiveFloors,raptiveManualCookieSync,recencyFrequency,reissuingSticky,removeAdHost,rpbsecs,rrassf,sbp,stickyBucketsLocalStorage,stickyV2,switzerlandGdpr,trafficShaping,usdk,ttdSync&siteid=6019593d6f0af53cda150f8c:5

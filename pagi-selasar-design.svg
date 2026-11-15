@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1740" viewBox="0 0 1920 1740">
+<defs>
+  <clipPath id="desktopHero"><rect x="806" y="438" width="556" height="466"/></clipPath>
+  <clipPath id="mobileHero"><rect x="1540" y="719" width="263" height="244"/></clipPath>
+  <style>
+    .sans{font-family:Arial,sans-serif}.serif{font-family:Georgia,serif}.ink{fill:#242b25}.muted{fill:#697068}.green{fill:#61734f}.tiny{font-size:12px;letter-spacing:2px}.small{font-size:15px}.body{font-size:19px}.headline{font-size:80px;letter-spacing:-4px}.rule{stroke:#d8d5c9;stroke-width:1}.caps{font-size:11px;letter-spacing:2px}
+  </style>
+</defs>
+<rect width="1920" height="1740" fill="#eeeade"/>
+<text x="90" y="75" class="sans tiny green">DESIGN BOARD  /  UMKM INDONESIA  /  2026</text>
+<text x="88" y="170" class="serif ink" font-size="68" letter-spacing="-3">Pagi Selasar</text>
+<text x="90" y="216" class="sans muted small">Landing page roti rumahan · Banjarmadu, Lamongan</text>
+<text x="1590" y="154" class="sans tiny muted">DIRECTION 01</text>
+<text x="1590" y="183" class="sans small ink">Kertas · pandan · batch pagi</text>
+<line x1="90" y1="260" x2="1830" y2="260" class="rule"/>
+
+<!-- Desktop landing preview -->
+<rect x="90" y="300" width="1370" height="820" fill="#f4f1e7" stroke="#d8d5c9"/>
+<text x="128" y="354" class="serif ink" font-size="27">Pagi Selasar</text>
+<text x="725" y="350" class="sans muted small">Menu</text>
+<text x="830" y="350" class="sans muted small">Cerita</text>
+<text x="932" y="350" class="sans muted small">Lokasi</text>
+<rect x="1190" y="318" width="220" height="48" fill="#242b25"/>
+<text x="1220" y="349" class="sans" font-size="13" fill="#faf8f1">Pesan via WhatsApp   ↗</text>
+<line x1="120" y1="392" x2="1430" y2="392" class="rule"/>
+<text x="136" y="453" class="sans green caps">ROTISERI RUMAHAN  ·  BANJARMADU, LAMONGAN</text>
+<text x="127" y="560" class="serif ink headline">Roti yang sabar,</text>
+<text x="127" y="647" class="serif ink headline">untuk pagi yang</text>
+<text x="127" y="734" class="serif ink headline">singkat.</text>
+<text x="139" y="795" class="sans muted body">Fermentasi pelan, tepung pilihan, dan oven yang</text>
+<text x="139" y="826" class="sans muted body">menyala sebelum matahari.</text>
+<rect x="138" y="873" width="236" height="54" fill="#61734f"/>
+<text x="162" y="906" class="sans" font-size="14" fill="#fffdf7">Pesan untuk besok   ↗</text>
+<text x="140" y="979" class="sans muted tiny">DIBAKAR HARIAN  /  BATCH PAGI 04</text>
+<!-- Actual demo product image; replace with this business's own photo before launch. -->
+<rect x="806" y="438" width="556" height="466" fill="#dde5cd"/>
+<image href="./assets/sourddough.jpg" x="806" y="438" width="556" height="466" preserveAspectRatio="xMidYMid slice" clip-path="url(#desktopHero)"/>
+<circle cx="1348" cy="908" r="58" fill="#f4f1e7" stroke="#61734f"/>
+<text x="1324" y="901" class="sans green tiny">BATCH</text>
+<text x="1340" y="927" class="serif green" font-size="23">04</text>
+<text x="808" y="934" class="sans muted tiny">BAHAN SEDERHANA, WAKTU YANG CUKUP</text>
+<line x1="128" y1="1020" x2="1417" y2="1020" class="rule"/>
+<text x="139" y="1062" class="sans muted tiny">DARI OVEN PAGI INI</text>
+<text x="138" y="1101" class="serif ink" font-size="30">Roti pilihan minggu ini</text>
+<image href="./assets/sourddough.jpg" x="505" y="1038" width="44" height="50" preserveAspectRatio="xMidYMid slice"/>
+<text x="565" y="1081" class="sans ink small">Sourdough kampung · Rp 32.000</text>
+<image href="./assets/roti_pandan.jpg" x="916" y="1038" width="44" height="50" preserveAspectRatio="xMidYMid slice"/>
+<text x="976" y="1081" class="sans ink small">Roti susu pandan · Rp 28.000</text>
+
+<!-- Mobile artboard -->
+<rect x="1515" y="300" width="315" height="820" fill="#f4f1e7" stroke="#d8d5c9"/>
+<text x="1541" y="348" class="serif ink" font-size="23">Pagi Selasar</text>
+<text x="1770" y="345" class="sans ink tiny">MENU</text>
+<line x1="1535" y1="371" x2="1810" y2="371" class="rule"/>
+<text x="1540" y="415" class="sans green" font-size="9" letter-spacing="1.3">ROTISERI RUMAHAN  /  LAMONGAN</text>
+<text x="1536" y="488" class="serif ink" font-size="48" letter-spacing="-2">Roti yang</text>
+<text x="1536" y="537" class="serif ink" font-size="48" letter-spacing="-2">sabar, untuk</text>
+<text x="1536" y="586" class="serif ink" font-size="48" letter-spacing="-2">pagi yang</text>
+<text x="1536" y="635" class="serif ink" font-size="48" letter-spacing="-2">singkat.</text>
+<text x="1542" y="674" class="sans muted" font-size="13">Fermentasi pelan, dibuat</text>
+<text x="1542" y="694" class="sans muted" font-size="13">sebelum matahari tinggi.</text>
+<rect x="1540" y="719" width="263" height="244" fill="#dde5cd"/>
+<image href="./assets/sourddough.jpg" x="1540" y="719" width="263" height="244" preserveAspectRatio="xMidYMid slice" clip-path="url(#mobileHero)"/>
+<rect x="1540" y="979" width="263" height="49" fill="#61734f"/>
+<text x="1611" y="1009" class="sans" font-size="13" fill="#fffdf7">Pesan via WhatsApp  ↗</text>
+<text x="1542" y="1063" class="sans muted" font-size="9" letter-spacing="1.5">DIBAKAR HARIAN / BATCH 04</text>
+
+<!-- Design system -->
+<text x="90" y="1210" class="sans green tiny">DESIGN SYSTEM  /  WARNA DAPUR &amp; MATERIAL KEMASAN</text>
+<text x="88" y="1270" class="serif ink" font-size="46" letter-spacing="-2">Rasa dibangun dari yang nyata.</text>
+<rect x="90" y="1310" width="284" height="104" fill="#f4f1e7"/><rect x="374" y="1310" width="284" height="104" fill="#242b25"/><rect x="658" y="1310" width="284" height="104" fill="#61734f"/><rect x="942" y="1310" width="284" height="104" fill="#dde5cd"/><rect x="1226" y="1310" width="284" height="104" fill="#d8d5c9"/>
+<text x="90" y="1440" class="sans ink small">TEPUNG / BACKGROUND</text><text x="374" y="1440" class="sans ink small">KULIT PANGGANG / INK</text><text x="658" y="1440" class="sans ink small">PANDAN / CTA</text><text x="942" y="1440" class="sans ink small">DAUN MUDA / TINT</text><text x="1226" y="1440" class="sans ink small">KERTAS / RULE</text>
+<text x="1540" y="1248" class="sans green tiny">PAIRING TYPE</text>
+<text x="1540" y="1307" class="serif ink" font-size="39">Fraunces</text>
+<text x="1540" y="1348" class="sans muted" font-size="16">DM Sans / body 16</text>
+<text x="1540" y="1380" class="sans muted" font-size="11">Garis tipis · sudut kecil</text>
+<text x="1540" y="1404" class="sans muted" font-size="11">Satu cap batch sebagai signature</text>
+<line x1="90" y1="1510" x2="1830" y2="1510" class="rule"/>
+<text x="90" y="1560" class="sans tiny green">TIGA KATEGORI  /  SATU GRID, IDENTITAS DARI USAHA</text>
+<rect x="90" y="1592" width="540" height="102" fill="#f4f1e7"/><rect x="649" y="1592" width="540" height="102" fill="#f4eee5"/><rect x="1208" y="1592" width="540" height="102" fill="#eee7da"/>
+<rect x="90" y="1592" width="8" height="102" fill="#61734f"/><rect x="649" y="1592" width="8" height="102" fill="#a34842"/><rect x="1208" y="1592" width="8" height="102" fill="#8a5928"/>
+<image href="./assets/sourddough.jpg" x="108" y="1602" width="82" height="82" preserveAspectRatio="xMidYMid slice"/>
+<image href="./assets/kain_batik_warna_hangat.jpg" x="667" y="1602" width="82" height="82" preserveAspectRatio="xMidYMid slice"/>
+<text x="205" y="1636" class="serif ink" font-size="29">Kuliner · pandan &amp; tepung</text><text x="205" y="1668" class="sans muted small">PAGI SELASAR  /  ROTI RUMAHAN</text>
+<text x="764" y="1636" class="serif ink" font-size="29">Fashion · kain &amp; jahit</text><text x="764" y="1668" class="sans muted small">SELA BATIK  /  BATIK PESISIR</text>
+<text x="1239" y="1636" class="serif ink" font-size="29">Kerajinan · tanah &amp; api</text><text x="1239" y="1668" class="sans muted small">LERENG TANAH  /  GERABAH BANJARMADU</text>
+</svg>
